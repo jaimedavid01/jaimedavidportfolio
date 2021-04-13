@@ -703,9 +703,9 @@ footer span a:hover{
     .skills .skills-content .left .text{
         font-size: 14px;
     }
- '   .skills .skills-content .left p{
+   .skills .skills-content .left p{
         font-size: 14px;
-    }'
+    }
     .contact .right form .fields{
         flex-direction: column;
     }
