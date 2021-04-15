@@ -41,7 +41,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Jaime David</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="#">Hire me</a>
+                <a href="#contact">Hire me</a>
             </div>
         </div>
     </section>
@@ -68,7 +68,7 @@
                         ( Jaime.r.david01@gmail.com ) 
                         </span>
                     </p>
-                <a href="#" class="href">Download CV</a>
+                <a href="./JAIME-DAVID-RESUME.pdf" target="_blank" class="href">Download CV</a>
             </div>
             </div>
         </div>
@@ -234,28 +234,36 @@
         <div class="max-width">
             <h2 class="title">Code Challenges</h2>
             <div class="code-content">
+
                 <div class="card">
+                    <a href="https://jaimedavid01.github.io/react-hooks-practice-sushi-saga/">
                     <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Challenge 1</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, possimus eligendi dicta rem quaerat corporis.</p>
+                            <img class="CC" src="images/CC1.png" alt="">
+                        <div class="text">Sushi Saga</div>
+                        <p>Recieve data from a database to render sushi continuously then visualize a sushi purchasing experience.</p>
                     </div>
+                </a>
+                </div>
+
+
+                <div class="card">
+                    <a href="https://jaimedavid01.github.io/react-hooks-mock-code-challenge-plantshop/">
+                    <div class="box">
+                            <img class="CC" src="images/CC3.png" alt="">
+                        <div class="text">Plantsy</div>
+                        <p>Get and post data to render from a database then build out an online plant store with all the features for the admin side.</p>
+                    </div>
+                </a>
                 </div>
 
                 <div class="card">
+                    <a href="https://jaimedavid01.github.io/react-hooks-practice-pokemon-searcher/">
                     <div class="box">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="text">Challenge 2</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, possimus eligendi dicta rem quaerat corporis.</p>
+                            <img class="CC" src="images/CC4.png" alt="">
+                        <div class="text">Pokemon Searcher</div>
+                        <p>Get and post data to render from a database then allow user to use a search feature that narrow's down data by the Pokemon's name.</p>
                     </div>
-                </div>
-
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Challenge 3</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, possimus eligendi dicta rem quaerat corporis.</p>
-                    </div>
+                </a>
                 </div>
 
             </div>
@@ -299,25 +307,29 @@
             </div>
             <div class="column right">
                 <div class="text">Message me</div>
-                <form action="#">
+                <form 
+                action="https://formspree.io/f/mleadeen"
+                method="POST"
+                id="my-form">
                     <div class="fields">
                         <div class="field name">
-                            <input type="text" placeholder="Name" required>
+                            <input type="text" name="name" placeholder="Name" required>
                         </div>
                         <div class="field email">
-                            <input type="email" placeholder="Email" required>
+                            <input type="email" name="_replyto" placeholder="Email" required>
                         </div>
                     </div>
                     <div class="field">
-                        <input type="text" placeholder="Subject" required>
+                        <input type="text" name="subject" placeholder="Subject" required>
                     </div>
-                    <div class="field textarea">
-                        <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                    <div class="field textarea" >
+                        <textarea cols="30" rows="10" name="message" placeholder="Message.." required></textarea>
                     </div>
                     <div class="button">
                         <button type="submit">Send message</button>
                     </div>
                 </form>
+                <div id="status"></div>
             </div>
         </div>
     </div>

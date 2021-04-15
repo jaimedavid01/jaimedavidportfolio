@@ -275,11 +275,21 @@ section .title::after{
 .code .code-content .card:hover i{
     color: #fff;
 }
+.CC {
+    width: 100px;
+}
 .code .code-content .text{
     opacity: 1;
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color: dodgerblue;
+}
+.code .code-content .card:hover .text {
+    color: #fff;
+}
+.code .code-content .card a:visited{
+    color: #fff;
 }
 
 /* Skills Section Start */
