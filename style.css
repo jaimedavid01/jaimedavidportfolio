@@ -443,12 +443,16 @@ section .title::after{
     margin-bottom: 8px;
 }
 .projects .carousel .card .amezon{
-    font-size: 13.5px;
+    font-size: 13.6px;
     margin-bottom: 8px;
 }
 .projects .carousel .card .wdyw{
     font-size: 13.5px;
     margin-bottom: 8px;
+}
+.projects .carousel .card .meflix{
+    font-size: 14.6px;
+    margin-bottom: 7.9px;
 }
 .projects .carousel .card .tech{
     font-size: 13px;
@@ -460,6 +464,18 @@ section .title::after{
     font-weight: bold;
     color: white;
 }
+.projects .carousel .card .demo{
+    font-size: 15px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+.projects .carousel .card:hover .demo{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+
 
 .owl-dots{
     text-align: center;
